@@ -50,7 +50,12 @@ class API_Star_Wars(API_consumer):
         return self.__URL
 
     def extract(self, id):
-    # Atividade 4, que resultará o terceiro commit
+        try:
+            self.__URL += str(id)
+            dado = requests.get(self.__URL).json()
+            return (dado.get("name"), dado.get("films"))
+        except Exception as e:
+            print("OCORREU UM ERRO:", e)
         pass
 
 class API_Ice_and_Fire(API_consumer):
