@@ -32,7 +32,12 @@ class API_Rick_Morty(API_consumer):
         return self.__URL
 
     def extract(self, id):
-    # Atividade 3, que resultará o segundo commit
+        try:
+            self.__URL += str(id)
+            dado = requests.get(self.__URL).json()
+            return (dado.get("id"),dado.get("name"),dado.get("species"))
+        except Exception as e:
+            print("OCORREU UM ERRO:", e)
         pass
 
 class API_Star_Wars(API_consumer):
