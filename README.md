@@ -9,15 +9,16 @@
 
 ### 2.  Criar o ambiente virtual
 > - Abra o prompt de controle
-> - Digite ``` python -m venv nome_do_ambiente ```
+> - Digite ```python -m venv nome_do_ambiente ```
 
 ### 3. Ativar o ambiente virtual
 > - No mesmo prompt digite: ``` cd nome_do_ambiente/Scripts ```
-> - Digite: ``` activate.bat``` para ativar o ambiente
+> - Digite: ```activate.bat``` para ativar o ambiente
 > - Após isso retorne para a diretório raiz com: ```cd ..``` 
 
 ### 4. Instale as bibliotecas necessárias
-> - Instale todas as bibliotecas presentes no arquivo **requirements.txt** usando o pip
+> - Adicione o arquivo **requirements.txt** presente nesse repositório ao diretório do Ambiente virtual
+> -No prompt de comando insira: ```pip install -r requirements.txt```
 
 ### 5. Rode o projeto
 >- Adicione os dois arquivos .py presentes nesse repositório para dentro do diretório do Ambiente virtual
