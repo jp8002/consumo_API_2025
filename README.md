@@ -12,7 +12,7 @@
 > - Digite ``` python -m venv nome_do_ambiente ```
 
 ### 3. Ativar o ambiente virtual
-> - No mesmo prompt digite: ``` nome_do_ambiente/Scripts ```
+> - No mesmo prompt digite: ``` cd nome_do_ambiente/Scripts ```
 > - Digite: ``` activate.bat``` para ativar o ambiente
 > - Após isso retorne para a diretório raiz com: ```cd ..``` 
 
