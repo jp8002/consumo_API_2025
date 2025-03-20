@@ -18,8 +18,8 @@
 
 ### 4. Instale as bibliotecas necessárias
 > - Adicione o arquivo **requirements.txt** presente nesse repositório ao diretório do Ambiente virtual
-> -No prompt de comando insira: ```pip install -r requirements.txt```
+> - No prompt de comando insira: ```pip install -r requirements.txt```
 
 ### 5. Rode o projeto
->- Adicione os dois arquivos .py presentes nesse repositório para dentro do diretório do Ambiente virtual
+> - Adicione os dois arquivos .py presentes nesse repositório para dentro do diretório do Ambiente virtual
 > - Dentro do prompt digite:  ```python main.py```
